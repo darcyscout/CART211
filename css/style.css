@@ -89,6 +89,13 @@ article.bio {
   margin-right: 32%;
 }
 
+article.readings {
+  line-height: 5vh;
+  padding: 2%;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
 article.assignments {
   line-height: 5vh;
   padding: 2%;
@@ -112,4 +119,119 @@ article p {
   margin-bottom: 5%;
   font-size: 18px;
   line-height: 24px;
+}
+
+div {
+  background: url(../images/artbackground.png) no-repeat center center;
+  background-size: cover;
+}
+
+section.parent {
+  margin:auto;
+  background: Inherits;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* article {
+	color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+} */
+
+.a1 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art1.png) no-repeat center left;
+  background-size: contain;
+}
+
+.a2 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art2.jpg) no-repeat center center;
+  background-size: contain;
+}
+
+.a3 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art3.jpg) no-repeat center right;
+  background-size: contain;
+}
+
+.a4 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art4.jpg) no-repeat center center;
+  background-size: contain;
+}
+
+.a5 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art5.png) no-repeat center center;
+  background-size: contain;
+}
+
+.a6 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art6.jpg) no-repeat center center;
+  background-size: contain;
+}
+
+.a7 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art7.jpg) no-repeat center right;
+  background-size: contain;
+}
+
+.a8 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art8.png) no-repeat center center;
+  background-size: contain;
+}
+
+.a9 {
+  color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 4vmax;
+  padding: 11% 0;
+  background: url(../images/art9.jpg) no-repeat center left;
+  background-size: contain;
 }
