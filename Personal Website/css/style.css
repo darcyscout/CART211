@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Tinos:wght@700&display=swap');
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: monospace, arial, sans-serif;
+  color: blanchedalmond;
+}
+
+header {
+  background-color: darkred;
+  color: black;
+  padding: 3%;
+  text-align: center;
+}
+
+header h1 {
+  font-family: tinos;
+  font-size: 8em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 2px 2px blanchedalmond;
+}
+
+header h2 {
+  font-size: 1.6em;
+  font-family: Orbitron, georgia, times, serif;
+  text-decoration: underline;
+}
+
+
+nav {
+  background-color:black;
+  text-align: center;
+}
+
+nav a:link {
+  background-color: black;
+  color: #555;
+  padding: 1% 2%;
+  display:inline-block;
+  text-decoration: overline;
+}
+
+nav a:visited {
+  color: #555;
+}
+
+nav a:hover {
+  color: blanchedalmond;
+  background-color: darkred;
+}
+
+nav a.active {
+  color: blanchedalmond;
+  background-color: darkred;
+}
+
+a:link {
+  background-color: black;
+  color: #555;
+  padding: 1% 2%;
+  display:inline-block;
+  text-decoration: overline;
+}
+
+a:visited {
+  color: #555;
+}
+
+a:hover {
+  color: blanchedalmond;
+  background-color: darkred;
+}
+
+a.active {
+  color: blanchedalmond;
+  background-color: darkred;
+}
+
+article.bio {
+  padding: 2%;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+article.assignments {
+  line-height: 5vh;
+  padding: 2%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+article h1 {
+  font-size: 38px;
+  text-transform: capitalize;
+  margin-bottom: 0.5%;
+}
+
+article h2 {
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-bottom: .5%;
+}
+
+article p {
+  margin-bottom: 5%;
+  font-size: 18px;
+  line-height: 24px;
+}
